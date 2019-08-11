@@ -1,7 +1,9 @@
 # StudentRecord - Full Stack Project
 
+This project was generated with [STS] and [Angular CLI].
+
 [Tech Stack]
-SpringBoot + Angular 7 + CI/CD = Complete Project Structuring to Deployment
+SpringBoot + Angular 7 + CI/CD = Complete Project Structuring [Development to Deployment]
 
 
 <p align="center">
