@@ -36,5 +36,5 @@ PostgreSQL 11
 
 ## License
 
-Project is published under the [MIT license](/LICENSE.md).
+Project is published under the [GNU General Public License v3.0](/LICENSE).
 Feel free to clone and modify repo as you want, but don't forget to add reference to authors :)
