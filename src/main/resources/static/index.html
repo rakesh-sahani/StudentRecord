@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="./js/index.js" ></script>
+<title>Insert title here</title>
+</head>
+<body ng-app="student" ng-controller="studentData">
+<div class="container">
+  <div class="row" >
+    <div class="col-md-12">
+      <h2>{{ title }}</h2>
+    </div>
+    <form>
+    <div class="col-md-4">
+      <span><input type="text" placeholder="Name" class="form-control" ng-model="name"/></span>
+    </div>
+    <div class="col-md-4">
+      <span><input type="text" placeholder="Course" class="form-control" ng-model="course"/></span>
+    </div>
+    <div class="col-md-4">
+        <span><button type="button" class="btn btn-danger" ng-click="add()">Add</button></span>
+      </div>
+     </form>
+  </div>
+<br><br>
+  <div class="row">
+    <table class="table">
+      <thead>
+        <tr>
+        <th>S.No.</th>
+          <th>Name</th>
+          <th>Course</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="student in sdata track by $index">
+        <td>{{$index+1}}</td>
+          <td>{{student.name}}</td>
+          <td>{{student.course}}</td>
+          <td><button type="button" class="btn btn-danger" ng-click="edit()">Edit</button>
+          <button type="button" class="btn btn-danger" ng-click="del(student.id)">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+</body>
+</html>

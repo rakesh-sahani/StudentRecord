@@ -1,6 +1,4 @@
-/**
- * 
- */
+
 package com.student.serviceImpl;
 
 import java.util.Optional;
@@ -12,11 +10,6 @@ import com.student.config.AppConstants;
 import com.student.entity.StudentRecordEntity;
 import com.student.repository.StudentRecordRepository;
 import com.student.service.StudentRecordService;
-
-/**
- * @author sumit
- *
- */
 
 @Service
 public class StudentRecordServiceImpl implements StudentRecordService {

@@ -10,6 +10,7 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -25,12 +26,7 @@ import com.student.config.AppConstants;
 import com.student.entity.StudentRecordEntity;
 import com.student.service.StudentRecordService;
 
-
-/**
- * @author sumit
- *
- */
-
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping(AppConstants.API_V1)
 public class StudentRecordController {
@@ -51,7 +47,7 @@ public class StudentRecordController {
 				node.put("response", AppConstants.NO_DATA);
 				return new ResponseEntity<>(node, HttpStatus.BAD_REQUEST);
 			}
-			return new ResponseEntity<>(listData, HttpStatus.FOUND);
+			return new ResponseEntity<>(listData, HttpStatus.OK);
 
 		} catch (Exception e) {
 			node.put("response", AppConstants.ERRORS);

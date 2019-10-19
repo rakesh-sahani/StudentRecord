@@ -1,0 +1,43 @@
+<div class="container">
+  <form [formGroup]="studentForm" (ngSubmit)="onSubmit()"> 
+  <div class="row">
+    <div class="col-md-12">
+      <h2>{{ title }}</h2>
+    </div>
+    
+    <div class="col-md-4">
+      <span><input formControlName="name" type="text" placeholder="Name" class="form-control"/></span>
+    </div>
+    <div class="col-md-4">
+      <span><input type="text" formControlName="course" placeholder="Course" class="form-control"/></span>
+    </div>
+    <div class="col-md-4">
+        <span><button type="submit" class="btn btn-danger">Add</button></span>
+      </div>
+     
+  </div>
+</form>
+<br><br>
+  <div class="row">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Name</th>
+          <th>Course</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let data of studentsData">
+          <td>{{data.id}}</td>
+          <td>{{data.name}}</td>
+          <td>{{data.course}}</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
