@@ -4,7 +4,7 @@ This project was show how to write the code and structing according to best prac
  using JPA
  
 [Tech Stack](https://github.com/Only1Ryu/StudentRecord/blob/master/img.png)
-## SpringBoot + Angular 7 + CI/CD = Complete Project Structuring with [Development to Deployment](https://github.com/Only1Ryu/StudentRecord/blob/master/img.png)
+## SpringBoot + Angular 8 + AngularJS + CI/CD = Complete Project Structuring with [Development to Deployment](https://github.com/Only1Ryu/StudentRecord/blob/master/img.png)
 
 <p align="center">
 <img width="800px"  src="https://github.com/Only1Ryu/StudentRecord/blob/master/img.png">
