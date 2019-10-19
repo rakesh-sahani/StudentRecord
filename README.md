@@ -26,9 +26,14 @@ Angular CLI
 PostgreSQL 11
 ```
 
-# Angular Code will be Uploaded Soon
-
-
+# Angular 8 
+```bash
+CRUD Operations
+```
+# AngularJS
+```bash
+CRUD Operations
+```
 
 ## Contributors
 
