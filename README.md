@@ -30,8 +30,7 @@ This project show how to write the code and structing according to best practice
 * [DBeaver](https://dbeaver.io/)
 
 
-## Installation
-# Angular NPM Packages
+## Angular NPM Packages
 ```bash
 Installing Angular CLI                -----> npm install -g @angular/cli
 Installing Angular Material           -----> ng add @angular/material
@@ -42,12 +41,12 @@ Installing Bootstrap FontAwesome      -----> npm install font-awesome
 ```
 
 
-# AngularJS
+## AngularJS
 ```bash
 CRUD Operations
 ```
 
-# Angular 8 
+## Angular 8 
 ```bash
 CRUD Operations
 ```
