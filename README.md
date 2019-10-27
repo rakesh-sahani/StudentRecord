@@ -6,7 +6,7 @@ How to write the code and structed according to best practices standards and als
 ## SpringBoot + Angular 8 + AngularJS + CI/CD = Complete Project Structuring LifeCycle [Development to Deployment](https://github.com/Only1Ryu/StudentRecord/blob/master/img.png)
 
 <p align="center">
-<img width="800px"  src="https://github.com/Only1Ryu/StudentRecord/blob/master/Banner.png">
+<img width="800px"  src="https://github.com/Only1Ryu/StudentRecord/blob/master/Untitledn.png">
 </p>
 
 ## Installation
