@@ -41,7 +41,7 @@ Installing Bootstrap FontAwesome      -----> npm install font-awesome
 
 ### Creating Module
 ```
-Creating Material Module              -----> ng g module material
+Creating Material Module              -----> ng g module material --flat
 ```
 ## AngularJS
 ```bash
