@@ -39,7 +39,10 @@ Installing Bootstrap Popper           -----> npm install popper.js --save
 Installing Bootstrap FontAwesome      -----> npm install font-awesome 
 ```
 
-
+### Creating Module
+```
+Creating Material Module              -----> ng g module material
+```
 ## AngularJS
 ```bash
 CRUD Operations
