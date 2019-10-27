@@ -1,10 +1,9 @@
 # StudentRecord - Full Stack Project
-
-This project show how to write the code and structing according to best practices standards and also implementing CI/CD generated with [SpringBoot](https://spring.io/),[Angular](https://angular.io/) and [PostgreSQL](https://www.postgresql.org/)
-/ [MySQL](https://www.mysql.com/) using JPA
+Student Records is a web-based service that allows to manage and this project shows you to Frontend and backend.
+How to write the code and structed according to best practices standards and also implementing single deployable ##War package CI/CD with [SpringBoot](https://spring.io/) and [Angular](https://angular.io/).
  
-[Tech Stack](https://github.com/Only1Ryu/StudentRecord/blob/master/img.png)
-## SpringBoot + Angular 8 + AngularJS + CI/CD = Complete Project Structuring with [Development to Deployment](https://github.com/Only1Ryu/StudentRecord/blob/master/img.png)
+# [Tech Stack](https://github.com/Only1Ryu/StudentRecord/blob/master/img.png)
+## SpringBoot + Angular 8 + AngularJS + CI/CD = Complete Project Structuring LifeCycle [Development to Deployment](https://github.com/Only1Ryu/StudentRecord/blob/master/img.png)
 
 <p align="center">
 <img width="800px"  src="https://github.com/Only1Ryu/StudentRecord/blob/master/img.png">
@@ -19,7 +18,7 @@ This project show how to write the code and structing according to best practice
 * [Augury](https://augury.rangle.io/)
 * [BootStrap](https://getbootstrap.com/)
 * [FontAwesome](https://fontawesome.com/)
-* [MySQL 8](https://www.mysql.com/)
+* [MySQL 8](https://www.mysql.com/) / [PostgreSQL](https://www.postgresql.org/)
 * [Lombok](https://projectlombok.org/)
 
 
