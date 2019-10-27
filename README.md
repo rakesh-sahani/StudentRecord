@@ -12,22 +12,22 @@ This project show how to write the code and structing according to best practice
 
 ## Installation
 
-[Java 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
-[Node - Latest Version](https://nodejs.org/en/)
-[Angular CLI](https://cli.angular.io/)
-[Angular Material](https://material.angular.io/)
-[Augury](https://augury.rangle.io/)
-[BootStrap](https://getbootstrap.com/)
-[FontAwesome](https://fontawesome.com/)
-[MySQL 8](https://www.mysql.com/)
-[Lombok](https://projectlombok.org/)
+* [Java 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+* [Node - Latest Version](https://nodejs.org/en/)
+* [Angular CLI](https://cli.angular.io/)
+* [Angular Material](https://material.angular.io/)
+* [Augury](https://augury.rangle.io/)
+* [BootStrap](https://getbootstrap.com/)
+* [FontAwesome](https://fontawesome.com/)
+* [MySQL 8](https://www.mysql.com/)
+* [Lombok](https://projectlombok.org/)
 
 
 ## IDE 
 
-[SpringBoot](https://spring.io/)
-[Visual Studio Code](https://code.visualstudio.com/)
-[DBeaver](https://dbeaver.io/)
+* [SpringBoot](https://spring.io/)
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [DBeaver](https://dbeaver.io/)
 
 
 ## Installation
