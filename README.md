@@ -12,7 +12,6 @@ This project show how to write the code and structing according to best practice
 
 ## Installation
 
-```bash
 [Java 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 [Node - Latest Version](https://nodejs.org/en/)
 [Angular CLI](https://cli.angular.io/)
@@ -22,15 +21,14 @@ This project show how to write the code and structing according to best practice
 [FontAwesome](https://fontawesome.com/)
 [MySQL 8](https://www.mysql.com/)
 [Lombok](https://projectlombok.org/)
-```
+
 
 ## IDE 
 
-```bash
 [SpringBoot](https://spring.io/)
 [Visual Studio Code](https://code.visualstudio.com/)
 [DBeaver](https://dbeaver.io/)
-```
+
 
 ## Installation
 # Angular NPM Packages
