@@ -39,6 +39,21 @@ Installing Bootstrap Popper           -----> npm install popper.js --save
 Installing Bootstrap FontAwesome      -----> npm install font-awesome 
 ```
 
+## Add this inside Angular.json
+
+```
+            "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/font-awesome/css/font-awesome.min.css",
+              "src/styles.css"
+            ],
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
+```
+
 ### Creating Module
 ```
 Creating Material Module              -----> ng g module material --flat
