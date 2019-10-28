@@ -3,24 +3,29 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HttpClientModule } from '@angular/common/http';
-
-
+import { StudentListComponent } from './student-list/student-list.component';
+import { MaterialModule } from './material.module';
+import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
-import { StudentApiService } from './student-api.service';
-
+import { HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { StudentService } from './services/student.service';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    StudentListComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    MaterialModule,
+    FormsModule,
+    ReactiveFormsModule,
     HttpClientModule,
-    ReactiveFormsModule
-    ],
-  providers: [StudentApiService],
+    BrowserAnimationsModule
+  ],
+  providers: [StudentService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
