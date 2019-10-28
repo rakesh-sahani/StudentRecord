@@ -63,7 +63,7 @@ public class StudentRecordController {
 		ObjectNode node = mapper.createObjectNode();
 		try {
 			if (listData.isPresent()) {
-				return new ResponseEntity<>(listData, HttpStatus.FOUND);
+				return new ResponseEntity<>(listData, HttpStatus.OK);
 			}
 			node.put("response", AppConstants.NO_DATA);
 			return new ResponseEntity<>(node, HttpStatus.BAD_REQUEST);
