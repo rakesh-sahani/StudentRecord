@@ -3,31 +3,38 @@ padding: 26px 123px;
 ">
   <div class="container">
     <div class="container-fluid">
-      <form>
+      <form [formGroup]="studentForm">
         <div class="row">
           <div class="col-lg-3">
             <mat-form-field>
-              <input matInput placeholder="Name" />
+              <input matInput placeholder="Name" formControlName="name"/>
             </mat-form-field>
           </div>
           <div class="col-lg-3">
             <mat-form-field>
-              <mat-select placeholder="Course">
-                <mat-option value="option">Option</mat-option>
+              <mat-select placeholder="Course" formControlName="course">
+                <mat-option *ngFor="let studentCourse of course" [value]="studentCourse">{{studentCourse}}</mat-option>
               </mat-select>
             </mat-form-field>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <mat-form-field>
-              <input matInput placeholder="Subject" />
-            </mat-form-field>
+        <div  formArrayName="studentSubjects">
+        <div class="row" *ngFor="let subjectName of this.studentForm.controls.studentSubjects.controls; let i = index">
+            <div class="col-lg-8" [formGroupName]="i" >
+              <mat-form-field>
+                <input matInput type="text" placeholder="Subject" formControlName="subjectName"/>
+              </mat-form-field>
+            </div>
+            <div class="col-lg-4" >
+                <button type="button" class="btn btn-success" (click)="addBox()"><i class="fa fa-plus"></i></button>
+                &nbsp; &nbsp;
+                <button type="button" class="btn btn-danger" (click)="removeBox(i)"><i class="fa fa-times"></i></button>          
+              </div>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-12">
-            <button mat-raised-button color="primary">Primary</button>
+            <button mat-raised-button color="primary" (click)="addStudent()">Add Student</button>
           </div>
         </div>
       </form>

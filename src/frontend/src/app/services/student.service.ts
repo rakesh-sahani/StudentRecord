@@ -21,6 +21,10 @@ export class StudentService {
     return this.http.get(this._baseUrl + "/view/"+studentById);
   }
 
+  addStudent(studentData) {
+    return this.http.post<any>(this._baseUrl + "/add",studentData);
+  }
+
   deleteStudentById(studentById : any) {
     return this.http.delete(this._baseUrl + "/delete/"+studentById);
   }
