@@ -24,7 +24,7 @@ How to write the code and structed according to best practices standards and als
 
 ## IDE 
 
-* [SpringBoot](https://spring.io/)
+* [Spring Tools Suite](https://spring.io/tools)
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [DBeaver](https://dbeaver.io/)
 
@@ -55,7 +55,7 @@ Installing Bootstrap FontAwesome      -----> npm install font-awesome
 ```
 
 ### Creating Module
-```
+```bash
 Creating Material Module              -----> ng g module material --flat
 ```
 ## AngularJS
