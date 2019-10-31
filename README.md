@@ -3,7 +3,7 @@ Student Records is a web-based service that allows to manage and this project sh
 How to write the code and structed according to best practices standards and also implementing single deployable ##War package CI/CD with [SpringBoot](https://spring.io/) and [Angular](https://angular.io/).
  
 # [Tech Stack](https://github.com/Only1Ryu/StudentRecord/blob/master/img.png)
-## SpringBoot + Angular 8 + CI/CD = Complete Project Structuring LifeCycle [Development to Deployment](https://github.com/Only1Ryu/StudentRecord/blob/master/img.png)
+## SpringBoot + Angular 8 + MySQL + CI/CD = Complete Project Structuring LifeCycle [Development to Deployment](https://github.com/Only1Ryu/StudentRecord/blob/master/img.png)
 
 <p align="center">
 <img width="800px"  src="https://github.com/Only1Ryu/StudentRecord/blob/master/Untitledn.png">
